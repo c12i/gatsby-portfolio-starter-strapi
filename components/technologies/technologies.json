@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_technologies_technologies",
+  "info": {
+    "name": "technologies",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
