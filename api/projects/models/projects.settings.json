@@ -39,6 +39,13 @@
       "repeatable": false,
       "component": "type.type",
       "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string",
+      "required": true
     }
   }
 }
