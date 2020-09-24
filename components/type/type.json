@@ -10,7 +10,7 @@
       "type": "enumeration",
       "enum": [
         "cli",
-        "webapp",
+        "web",
         "library",
         "other"
       ],
