@@ -15,15 +15,37 @@
     },
     "position": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "company": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "about": {
       "type": "text",
       "required": true
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "working": {
+      "type": "boolean",
+      "required": true
+    },
+    "coverPhoto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

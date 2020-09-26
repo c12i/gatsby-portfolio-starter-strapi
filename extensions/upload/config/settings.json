@@ -1,0 +1,8 @@
+{
+    "provider": "cloudinary",
+    "providerOptions": {
+        "cloud_name": "collinsmuriuki",
+        "api_key": "787664494591873",
+        "api_secret": "Q2XWz_3PvJgVJLauRy_qlkR0Dow"
+    }
+}
